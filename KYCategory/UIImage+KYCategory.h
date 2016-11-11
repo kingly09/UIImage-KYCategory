@@ -27,21 +27,66 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ This is an extension of the UIImage collection
+ */
 @interface UIImage (KYCategory)
 
+/**
+  Colour the picture according to a color
+
+ @param color Set a color
+ @return Get a stained picture
+ */
 -(UIImage*)tintedImageWithColor:(UIColor*)color;
+
+/**
+ Colour and transparency to the picture.
+
+ @param color color Set a color
+ @param level Set the transparency of the picture
+ @return Get a Colour and transparency to the picture.
+ */
 -(UIImage*)tintedImageWithColor:(UIColor*)color level:(CGFloat)level;
+
+/**
+ Dye the picture according to a color and area.
+
+ @param color  Set a color
+ @param rect   Set a area
+ @return Get a stained picture
+ */
 -(UIImage*)tintedImageWithColor:(UIColor*)color rect:(CGRect)rect;
+
+/**
+ Colour,transparency  and area to the picture.
+
+ @param color Set a color
+ @param rect  Set a area
+ @param level Set the transparency of the picture
+ @return Get a stained picture
+ */
 -(UIImage*)tintedImageWithColor:(UIColor*)color rect:(CGRect)rect level:(CGFloat)level;
+
+/**
+ EdgeInsets and Colour to the picture.
+
+ @param color  Set a color
+ @param insets Set a UIEdgeInsets
+ @return Get a stained picture
+ */
 -(UIImage*)tintedImageWithColor:(UIColor*)color insets:(UIEdgeInsets)insets;
+
+/**
+ Colour,UIEdgeInsets  and area to the picture.
+
+ @param color Set a color
+ @param insets Set a UIEdgeInsets
+ @param level Set the transparency of the picture
+ @return Get a stained picture
+ */
 -(UIImage*)tintedImageWithColor:(UIColor*)color insets:(UIEdgeInsets)insets level:(CGFloat)level;
 
--(UIImage*)lightenWithLevel:(CGFloat)level;
--(UIImage*)lightenWithLevel:(CGFloat)level insets:(UIEdgeInsets)insets;
--(UIImage*)lightenRect:(CGRect)rect withLevel:(CGFloat)level;
 
--(UIImage*)darkenWithLevel:(CGFloat)level;
--(UIImage*)darkenWithLevel:(CGFloat)level insets:(UIEdgeInsets)insets;
--(UIImage*)darkenRect:(CGRect)rect withLevel:(CGFloat)level;
 
 @end
