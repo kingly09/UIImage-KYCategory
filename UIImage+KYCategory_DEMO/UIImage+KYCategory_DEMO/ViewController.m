@@ -26,8 +26,12 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+KYCategory.h"
 
-@interface ViewController ()
+@interface ViewController (){
+
+    UIImageView *qiaoImageView;
+}
 
 @end
 
@@ -36,6 +40,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    qiaoImageView = [[UIImageView alloc] init];
+    CGRect imageRect = CGRectMake(50, 50, 150, 250);
+    qiaoImageView.frame = imageRect;
+    qiaoImageView.image = [UIImage imageNamed:@"qiao"];
+    [self.view addSubview:qiaoImageView];
+
 }
 
 
