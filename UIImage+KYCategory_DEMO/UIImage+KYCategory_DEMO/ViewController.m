@@ -35,6 +35,9 @@
 
     UIImageView *likeImageView;
     UIImageView *likeImageView02;
+
+    UIImageView *gift01ImageView;
+    UIImageView *gift02ImageView;
 }
 
 @end
@@ -68,10 +71,24 @@
 
 
     likeImageView02 = [[UIImageView alloc] init];
-    CGRect like02Rect = CGRectMake(200, 150, 54, 50);
+    CGRect like02Rect = CGRectMake(200, 125, 54, 50);
     likeImageView02.frame = like02Rect;
     likeImageView02.image = [[UIImage imageNamed:@"img_like"] tintedImageWithColor:[UIColor blackColor] level:0.5];
     [self.view addSubview:likeImageView02];
+
+    gift01ImageView = [[UIImageView alloc] init];
+    CGRect gift01Rect = CGRectMake(200, 220, 48, 48);
+    gift01ImageView.frame = gift01Rect;
+    gift01ImageView.image = [UIImage imageNamed:@"ic-gift"];
+    [self.view addSubview:gift01ImageView];
+
+
+    gift02ImageView = [[UIImageView alloc] init];
+    CGRect gift02Rect = CGRectMake(200,300, 48, 48);
+    gift02ImageView.frame = gift02Rect;
+    gift02ImageView.image = [[UIImage imageNamed:@"ic-gift"] tintedImageWithColor:[UIColor blueColor] level:0.5];
+    [self.view addSubview:gift02ImageView];
+
 
 
 }
