@@ -31,6 +31,9 @@
 @interface ViewController (){
 
     UIImageView *qiaoImageView;
+    UIImageView *qiaoColorImageView;
+
+    UIImageView *likeImageView;
 }
 
 @end
@@ -41,11 +44,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
+    //Original
     qiaoImageView = [[UIImageView alloc] init];
-    CGRect imageRect = CGRectMake(50, 50, 150, 250);
+    CGRect imageRect = CGRectMake(80, 50, 100, 150);
     qiaoImageView.frame = imageRect;
     qiaoImageView.image = [UIImage imageNamed:@"qiao"];
     [self.view addSubview:qiaoImageView];
+
+    //Colored pictures
+    qiaoColorImageView = [[UIImageView alloc] init];
+    CGRect imageColorRect = CGRectMake(80, 250, 100, 150);
+    qiaoColorImageView.frame = imageColorRect;
+    qiaoColorImageView.image = [[UIImage imageNamed:@"qiao"] tintedImageWithColor:[UIColor redColor] level:0.5];
+    [self.view addSubview:qiaoColorImageView];
+
+
+    likeImageView = [[UIImageView alloc] init];
+    CGRect likeRect = CGRectMake(80, 50, 100, 150);
+    likeImageView.frame = likeRect;
+    likeImageView.image = [[UIImage imageNamed:@"qiao"] tintedImageWithColor:[UIColor redColor] level:0.5];
+    [self.view addSubview:likeImageView];
 
 }
 

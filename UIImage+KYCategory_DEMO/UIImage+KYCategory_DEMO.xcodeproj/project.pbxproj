@@ -14,7 +14,6 @@
 		BCAFB0F01DD5E37600A61195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAFB0EF1DD5E37600A61195 /* Assets.xcassets */; };
 		BCAFB0F31DD5E37600A61195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAFB0F11DD5E37600A61195 /* LaunchScreen.storyboard */; };
 		BCAFB0FD1DD5E44C00A61195 /* UIImage+KYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAFB0FC1DD5E44C00A61195 /* UIImage+KYCategory.m */; };
-		BCAFB0FF1DD5EB6A00A61195 /* qiao.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAFB0FE1DD5EB6A00A61195 /* qiao.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		BCAFB0F41DD5E37600A61195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCAFB0FB1DD5E44C00A61195 /* UIImage+KYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KYCategory.h"; sourceTree = "<group>"; };
 		BCAFB0FC1DD5E44C00A61195 /* UIImage+KYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KYCategory.m"; sourceTree = "<group>"; };
-		BCAFB0FE1DD5EB6A00A61195 /* qiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiao.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 				BCAFB0E71DD5E37600A61195 /* AppDelegate.m */,
 				BCAFB0E91DD5E37600A61195 /* ViewController.h */,
 				BCAFB0EA1DD5E37600A61195 /* ViewController.m */,
-				BCAFB0FE1DD5EB6A00A61195 /* qiao.png */,
 				BCAFB0EC1DD5E37600A61195 /* Main.storyboard */,
 				BCAFB0EF1DD5E37600A61195 /* Assets.xcassets */,
 				BCAFB0F11DD5E37600A61195 /* LaunchScreen.storyboard */,
@@ -157,7 +154,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCAFB0F31DD5E37600A61195 /* LaunchScreen.storyboard in Resources */,
-				BCAFB0FF1DD5EB6A00A61195 /* qiao.png in Resources */,
 				BCAFB0F01DD5E37600A61195 /* Assets.xcassets in Resources */,
 				BCAFB0EE1DD5E37600A61195 /* Main.storyboard in Resources */,
 			);
