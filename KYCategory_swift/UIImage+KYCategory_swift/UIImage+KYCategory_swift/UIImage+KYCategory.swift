@@ -29,10 +29,10 @@ import UIKit
 extension UIImage {
 
 
-    ///  改变一个图像的着色颜色,即更改image的TintColor
+    ///  Just change a colored color image, is to change the image TintColo
     ///
-    /// - Parameter tintColor: 需要改变的着色颜色
-    /// - Returns: 返回一个图像
+    /// - Parameter tintColor: Need to change the color of the color
+    /// - Returns: Returns an image
     func imageWithTintColor (tintColor: UIColor? = nil, alpha: CGFloat) -> UIImage?  {
 
         let rect = CGRect(x: 0.0, y: 0.0, width: self.size.width, height: self.size.height)

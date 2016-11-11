@@ -28,9 +28,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+
+        let gift01ImageView = UIImageView(image: UIImage(named: "ic-gift"))
+        //设置大小
+        gift01ImageView.frame =  CGRect(x: 50.0, y: 50.0, width: 48.0, height: 48.0)
+        self.view!.addSubview(gift01ImageView)
+
+
+        let gift02ImageView = UIImageView(image: UIImage(named: "ic-gift")?.imageWithTintColor(tintColor: UIColor.blue, alpha: 0.5))
+        //设置大小
+        gift02ImageView.frame =  CGRect(x: 125.0, y: 50.0, width: 48.0, height: 48.0)
+        self.view!.addSubview(gift02ImageView)
+
     }
 
     override func didReceiveMemoryWarning() {
