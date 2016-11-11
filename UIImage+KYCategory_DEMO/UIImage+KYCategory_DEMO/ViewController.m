@@ -34,6 +34,7 @@
     UIImageView *qiaoColorImageView;
 
     UIImageView *likeImageView;
+    UIImageView *likeImageView02;
 }
 
 @end
@@ -60,10 +61,18 @@
 
 
     likeImageView = [[UIImageView alloc] init];
-    CGRect likeRect = CGRectMake(80, 50, 100, 150);
+    CGRect likeRect = CGRectMake(200, 50, 54, 50);
     likeImageView.frame = likeRect;
-    likeImageView.image = [[UIImage imageNamed:@"qiao"] tintedImageWithColor:[UIColor redColor] level:0.5];
+    likeImageView.image = [[UIImage imageNamed:@"img_like"] tintedImageWithColor:[UIColor redColor] level:0.5];
     [self.view addSubview:likeImageView];
+
+
+    likeImageView02 = [[UIImageView alloc] init];
+    CGRect like02Rect = CGRectMake(200, 150, 54, 50);
+    likeImageView02.frame = like02Rect;
+    likeImageView02.image = [[UIImage imageNamed:@"img_like"] tintedImageWithColor:[UIColor blackColor] level:0.5];
+    [self.view addSubview:likeImageView02];
+
 
 }
 
