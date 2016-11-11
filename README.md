@@ -1,2 +1,2 @@
 # UIImage-KYCategory
-UIImage+KYCategory 是 UIImage一个Category集合，可以很方便给图片进行染色（Tinting）、增加亮度（lightening）以及降低亮度（darkening）。 
+This is a Category UIImage collection, can be very convenient for the picture to dye (Tinting), increase the brightness (lightening) and reduce the brightness (darkening) and other extensions of the functional modules. 
