@@ -2,7 +2,7 @@
 
 This is a Category UIImage collection, can be very convenient for the picture to dye (Tinting), increase the brightness (lightening) and reduce the brightness (darkening) and other extensions of the functional modules. 
 
-This tutorial includes **Objective-C** and **swift** two implementation methods, will be given in the following
+This tutorial includes **Objective-C** and **swift** two implementation methods, will be given in the following.
 
 ![](./kYCategory_objc.png)
 
@@ -90,13 +90,13 @@ override func viewDidLoad() {
 
 
         let gift01ImageView = UIImageView(image: UIImage(named: "ic-gift"))
-        //设置大小
+        
         gift01ImageView.frame =  CGRect(x: 50.0, y: 50.0, width: 48.0, height: 48.0)
         self.view!.addSubview(gift01ImageView)
 
 
         let gift02ImageView = UIImageView(image: UIImage(named: "ic-gift")?.imageWithTintColor(tintColor: UIColor.blue, alpha: 0.5))
-        //设置大小
+     
         gift02ImageView.frame =  CGRect(x: 125.0, y: 50.0, width: 48.0, height: 48.0)
         self.view!.addSubview(gift02ImageView)
 
