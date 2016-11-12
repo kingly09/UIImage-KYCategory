@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name         = "UIImage+KYCategory"
 s.summary      = "This is a Category UIImage collection, can be very convenient for the picture to dye."
-s.version      = '1.0.3'
+s.version      = '1.0.4'
 s.homepage     = "https://github.com/kingly09/UIImage-KYCategory"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author       = { "kingly" => "libintm@163.com" }
